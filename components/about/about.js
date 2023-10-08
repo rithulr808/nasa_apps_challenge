@@ -42,10 +42,10 @@ const AboutPage = () => {
                                 className="font-normal text-white/40  font-mono text-sm px-2 py-2 rounded mx-auto  bg-[#1A1A1A] ">
                                 Water is the essence of life, shaping ecosystems, sustaining human health, and driving economic activities worldwide.
                             </div>
-                            <div className=" flex lg:flex-row flex-col mb-16 p-8 items-center h-[600px]">
-                                <div className="w-full mt-32 h-full">
+                            <div className=" flex lg:flex-row flex-col  p-8 items-center min-h-[600px]">
+                                <div className="w-full mt-12 h-full">
                                     <div
-                                        className="flex-initial text-center lg:text-left  font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 items-center mt-16 text-3xl  lg:text-7xl  py-4">
+                                        className="flex-initial text-center lg:text-left  font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 items-center  text-3xl  lg:text-7xl  py-4">
                                         Everything Starts with Water
                                     </div>
                                     <p className="my-12 text-justify md:text-left font-mono">
@@ -54,9 +54,9 @@ const AboutPage = () => {
                                 </span>
                                     </p>
                                 </div>
-                                <div className="mt-40 font-mono tracking-wide w-1/2 invisible  lg:visible text-left flex   h-full">
+                                <div className="font-mono tracking-wide w-1/2 invisible  lg:visible text-left flex   h-full">
                                     <div className=" px-4 ">
-                                        <div className="hover:scale-110 transition-all duration-1000 ">
+                                        <div className="hover:scale-110 transition-all  duration-1000 ">
                                             <Globe/>
                                         </div>
                                     </div>
