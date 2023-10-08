@@ -54,9 +54,9 @@ const AboutPage = () => {
                                 </span>
                                     </p>
                                 </div>
-                                <div className="font-mono tracking-wide w-1/2 invisible  lg:visible text-left flex   h-full">
-                                    <div className=" px-4 ">
-                                        <div className="hover:scale-110 transition-all  duration-1000 ">
+                                <div className="font-mono tracking-wide w-1/2 invisible items-center   lg:visible text-left flex   h-full">
+                                    <div className=" px-4 items-center ">
+                                        <div className="hover:scale-110 transition-all items-center  duration-1000 ">
                                             <Globe/>
                                         </div>
                                     </div>
